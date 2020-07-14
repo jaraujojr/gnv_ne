@@ -1,0 +1,83 @@
+body {
+  font-family:  Arial;
+  margin: 0;
+  background: seashell;
+	height: auto;
+}
+.gnv {
+  height: 100px;
+  display: block;
+  margin: 30px auto 30px auto;
+}
+.topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 0 15px;
+}
+h1 {
+	color: #283ba9;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+h2 {
+	text-align: center;
+}
+
+p {
+	font-family: "Dancing Script", cursive;
+	font-style: italic;
+	font-size: 2em;
+	margin: 0 0 0 10px;
+
+}
+
+.tamanho {
+	height: 100px;
+	display: block;
+  margin: 30px auto 30px auto;
+	border: 2px solid black;
+}
+.estados {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 0 15px;
+	text-align: center;
+}
+a {
+	margin: auto;
+}
+.centro {
+	width: 100%;
+}
+
+@media (max-width: 600px) {
+	body{
+		margin: 0;
+		padding: 0;
+	}
+
+	.symbol{
+		display: none;
+		width: 0;
+	}
+	.topo {
+		display: flex;
+  	justify-content: center;
+  	align-items: center;
+		width: auto;
+  	/* padding: 0 20px 0 15px; */
+	}
+	.estados {
+  display: block;
+  padding: 0 20px 0 15px;
+	
+}
+h1 {
+	text-align: center;
+}
+
+
+}
